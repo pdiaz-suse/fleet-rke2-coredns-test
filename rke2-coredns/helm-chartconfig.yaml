@@ -2,7 +2,9 @@ apiVersion: helm.cattle.io/v1
 kind: HelmChartConfig
 metadata:
   name: rke2-coredns
-  namespace: kube-system
+  namespace: kube-systemi
+  annotations:
+    objectset.rio.cattle.io/id: default-ownership-helmchart
   labels:
     objectset.rio.cattle.io/hash: 821f11e9348ac0b8ca314dc13937b247b6408aa1
 spec:
