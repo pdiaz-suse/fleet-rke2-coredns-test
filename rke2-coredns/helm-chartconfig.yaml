@@ -3,6 +3,8 @@ kind: HelmChartConfig
 metadata:
   name: rke2-coredns
   namespace: kube-system
+  labels:
+    objectset.rio.cattle.io/hash: 821f11e9348ac0b8ca314dc13937b247b6408aa1
 spec:
   valuesContent: |-
     replicaCount: 1
