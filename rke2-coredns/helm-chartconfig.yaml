@@ -3,10 +3,6 @@ kind: HelmChartConfig
 metadata:
   name: rke2-coredns
   namespace: kube-system
-  annotations:
-    objectset.rio.cattle.io/id: default-ownership-helmchart
-  labels:
-    objectset.rio.cattle.io/hash: f68201c46c5ebe4d2b9cec694e95f38f1e42f2d
 spec:
   valuesContent: |-
     replicaCount: 1

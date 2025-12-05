@@ -1,4 +1,4 @@
 defaultNamespace: kube-system
 helm:
-  releaseName: rke2-coredns
+  releaseName: rke2-coredns-custom
   takeOwnership: true
