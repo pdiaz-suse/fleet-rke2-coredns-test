@@ -1,0 +1,4 @@
+defaultNamespace: kube-system
+helm:
+  releaseName: rke2-coredns-custom-bomb
+  takeOwnership: true
