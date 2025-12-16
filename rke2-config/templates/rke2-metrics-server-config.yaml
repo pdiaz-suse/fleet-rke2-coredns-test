@@ -5,4 +5,4 @@ metadata:
   namespace: kube-system
 spec:
   valuesContent: |-
-    replicas: 3
+    replicas: 2
