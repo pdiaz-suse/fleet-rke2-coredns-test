@@ -1,3 +1,4 @@
 defaultNamespace: kube-system
 helm:
   releaseName: oss-k8s-rke2-config-config
+  takeOwnership: true
